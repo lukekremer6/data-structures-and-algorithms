@@ -24,7 +24,7 @@ class Heap {
         void percolateDown(int index);
         void percolateUp(int index);
 
-        public:
+    public:
         Heap();
         Heap(keytype k[], int s);
         keytype peekKey();
